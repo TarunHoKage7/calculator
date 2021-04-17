@@ -2,15 +2,22 @@
 
 A new Flutter project.
 
-## Getting Started
+## calculator connected to firebase for viewing previous calculaions
 
-This project is a starting point for a Flutter application.
+the main page is a basic arithmatic calculator and upon clicking the floating action button,
 
-A few resources to get you started if this is your first Flutter project:
+you will be routed to logical operator's screen.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+upon clicking the menu bar on the appbar after typing a question,
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+the question statement will be uploaded to firebase realtime-database.
+
+there is a button named history on the arithmatic calculator page that is 
+
+meant to display previous entries(questions), but it does not display the 
+
+result s of now.
+
+
+
+
